@@ -60,10 +60,10 @@ button {
     font-style: normal;
     border: 2px solid #B295FF;
     border-radius: 4px;
-    color: #000000;
+    color: #ffffffde;
     background-color: #6943FF;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 24px;
     padding: 10px;
     height: 50px;
@@ -93,7 +93,7 @@ button:active {
     border-radius: 5px;
     margin-top: 10px;
     color: #3D3D3D;
-    background: #2a8af76e;
+    background: orange;
 /* shadow/sm */
 
     border-radius: 5px;

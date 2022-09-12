@@ -13,7 +13,7 @@ const copyKiloBtn = document.getElementById("copy-kilos-btn")
 function Convert() {
     
     const input = inputEl.value
-    if (input > 0) {
+    if (input > 0) { // Input boş gelirse butonu çalıştırma
         //Length conversion
     lengthEl.innerHTML = `${input} meters = <span id="feet-conversion">${(input*3.281).toFixed(3)}</span> feet | ${input} feet = <span id="meter-conversion">${(input/3.281).toFixed(3)}</span> meters`
     //volume conversion
@@ -21,8 +21,6 @@ function Convert() {
     //mass conversion
     massEl.innerHTML = `${input} kilos = <span id="pound-conversion">${(input*2.204).toFixed(3)}</span> pounds | ${input} pounds = <span id="kilo-conversion">${(input/2.204).toFixed(3)}</span> kilos`
     }
-    
-    
 }
 Convert()
 
