@@ -2,6 +2,10 @@
     margin-top: 0;
 }
 
+body {
+    margin: 0;
+}
+
 
 #container {
     height:40%;
@@ -21,7 +25,7 @@ h1 {
 }
 
 #input-el {
-    height: 160px;
+    height: 120px;
     width: 240px;
     background-color: #6943FF;
     border: 2px solid #B295FF;
@@ -29,7 +33,7 @@ h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 116px;
+    font-size: 96px;
     line-height: 24px;
     /* or 42% */
 
@@ -58,7 +62,43 @@ h1 {
     background: #2a8af76e;
 /* shadow/sm */
 
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     margin: 40px 40px;
+}
+
+#btn-el:active{
+    box-shadow: 0 0 5pt 1pt #B295FF;
+}
+
+#metrics-body {
+    padding-top: 3%;
+    background-color: #1F2937;
+    padding-bottom: 1%;
+}
+
+.metricsHeader {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    color: #CCC1FF;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.metricsCalculations {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center; 
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.metricsInlines {
+    margin-left: 20%;
+    width: 60%;
+    background-color: #273549;
+    border-radius: 5px 0px 0px 0px;
+
 }
