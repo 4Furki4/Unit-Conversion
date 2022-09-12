@@ -10,28 +10,28 @@
 <body>
     <div id="container">
         <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="text" id="input-el" placeholder="20"><br>
-        <button id="btn-el">Convert</button>
+        <input type="text" id="input-el" value="1"><br>
+        <button onclick="Convert()" id="btn-el">Convert</button>
     </div>
 
     <div id="metrics-body">
         <div class="metricsInlines">
             <p class="metricsHeader">Length (Meter/Feet)</p>
-            <p class="metricsCalculations" id="length">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
-            <button class="copy-left" id="copy-feet">Copy Feet Conversion</button>
-            <button class="copy-right" id="copy-meter">Copy Meter Conversion</button>
+            <p class="metricsCalculations" id="length"></p>
+            <button class="copy-left" id="copy-feet-btn">Copy Feet Conversion</button>
+            <button class="copy-right" id="copy-meter-btn">Copy Meter Conversion</button>
         </div>
         <div class="metricsInlines">
             <p class="metricsHeader">Volume (Liters/Gallons)</p>
-            <p class="metricsCalculations" id="volume">20 liters = 5.284 gallons | 20 gallons = 75.708 liters</p>
-            <button class="copy-left" id="copy-gallon">Copy Feet Conversion</button>
-            <button class="copy-right" id="copy-liter">Copy Meter Conversion</button>
+            <p class="metricsCalculations" id="volume"></p>
+            <button class="copy-left" id="copy-gallon-btn">Copy Gallon Conversion</button>
+            <button class="copy-right" id="copy-liter-btn">Copy Liter Conversion</button>
         </div>
         <div class="metricsInlines">
             <p class="metricsHeader">Mass (Kilograms/Pounds)</p>
-            <p class="metricsCalculations" id="mass">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
-            <button class="copy-left" id="copy-pounds">Copy Feet Conversion</button>
-            <button class="copy-right" id="copy-kilos">Copy Meter Conversion</button>
+            <p class="metricsCalculations" id="mass"></p>
+            <button class="copy-left" id="copy-pounds-btn">Copy Pound Conversion</button>
+            <button class="copy-right" id="copy-kilos-btn">Copy Kilo Conversion</button>
         </div>
     </div>
     <script src="/index.js"></script>
